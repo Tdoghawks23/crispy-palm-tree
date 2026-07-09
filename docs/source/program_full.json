@@ -1,0 +1,3988 @@
+{
+ "Daily Plan (4-Day)": [
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 2,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral. (Deload RIR 3–4) — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Medium (Deload) grip",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 2,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 2,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 2,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased) — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 1,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 2,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 2,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 1,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce. — DELOAD: RIR 3–4, no intensifiers."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Push",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knees bent→straight to progress; shoulders packed."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze; no swinging."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+   "sets": 3,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; constant tension."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Tue",
+   "session": "Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 4,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; torso 30–45°."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Thu",
+   "session": "Pull",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction at top."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Bar path nose→chest; neutral wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Bench-dip between chairs",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Smooth bottom; no shoulder glide."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Strict form; 3-1-1 tempo."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Sat",
+   "session": "Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Controlled; full ROM; no bounce."
+  }
+ ],
+ "Daily Plan (3-Day)": [
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 1,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 2,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 3,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 4,
+   "meso": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 5,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 6,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 7,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)"
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 8,
+   "meso": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Medium (Deload) grip",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 2,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 2,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 1,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 2,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 2,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 1,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 2,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 1,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 2,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased) — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 2,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 1,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 9,
+   "meso": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 1,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug. — DELOAD: RIR 3–4; no intensifiers."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 10,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Wide grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Narrow grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 11,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 4,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Underhand barbell row from hinge",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "Pause 1s at ribs; biceps bias."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Mon",
+   "session": "Upper/Arms A",
+   "exercise": "EZ-bar reverse curl",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Knuckles up; control wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Close-grip push-up (feet elevated/weighted)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; slight protraction."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar JM press",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Nose→chest path; neutral wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Overhead triceps extension (single DB)",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Deep stretch; ribs down; elbows in."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "EZ-bar curl — Medium grip",
+   "sets": 3,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "3-1-1 tempo; strict."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Wed",
+   "session": "Lower-lite + Arms B",
+   "exercise": "Wrist curl + reverse wrist curl (superset)",
+   "sets": 2,
+   "reps": "12–20 reps each (superset)",
+   "notes": "Full ROM; no bounce."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "DB hammer curl",
+   "sets": 3,
+   "reps": "10–15 reps @ RIR 1–2",
+   "notes": "Neutral grip; 1s squeeze."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "‘Spider’ curl (no bench)",
+   "sets": 2,
+   "reps": "12–20 reps @ RIR 1–2",
+   "notes": "Strict; constant tension."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "1-arm DB row (long squeeze)",
+   "sets": 3,
+   "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+   "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Close-grip push-up (board narrow)",
+   "sets": 3,
+   "reps": "10–20 reps @ RIR 1–2 (last set)",
+   "notes": "3-1-1 tempo; elbows tucked."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Floor EZ-bar skull crusher",
+   "sets": 2,
+   "reps": "8–15 reps @ RIR 1–2",
+   "notes": "Behind-head stretch; neutral wrists."
+  },
+  {
+   "week": 12,
+   "meso": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+   "day": "Fri",
+   "session": "Arms Focus",
+   "exercise": "Timed bar holds (double overhand)",
+   "sets": 2,
+   "reps": "30–45s holds @ RIR 1–2",
+   "notes": "Shoulders packed; no shrug."
+  }
+ ],
+ "warmup": [
+  {
+   "component": "General warm-up",
+   "dosage": "2–3 min",
+   "what": "Brisk arm swings, shoulder circles; 5–10 easy push-ups (RIR 4–5)."
+  },
+  {
+   "component": "Elbow-health circuit",
+   "dosage": "2–3 min",
+   "what": "Prone Y‑T‑W or wall slides 1×10; overhead reach/lat stretch 30–45s/side; light reverse curls 1×20."
+  },
+  {
+   "component": "Ramp sets",
+   "dosage": "2–3 sets",
+   "what": "First arm move: 2–3 lighter ramp sets to ~RIR 4–3 before working sets; grease the groove."
+  },
+  {
+   "component": "Optional blood-flow",
+   "dosage": "1–2 min",
+   "what": "Very light banded push-downs or curls 1×20–30 to pump elbows (if bands owned)."
+  }
+ ]
+}
