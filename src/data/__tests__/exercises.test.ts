@@ -39,4 +39,20 @@ describe('exercise catalog (R2/R3)', () => {
     const ids = EXERCISES.map((e) => e.id);
     expect(new Set(ids).size).toBe(ids.length);
   });
+
+  it('flags bodyweight-primary exercises (close-grip push-up and dip variants, excluding weighted-bench-dip)', () => {
+    const bodyweightIds = EXERCISES.filter((e) => e.bodyweight).map((e) => e.id);
+    expect(new Set(bodyweightIds)).toEqual(
+      new Set([
+        'close-grip-pushup-board-narrow',
+        'close-grip-pushup-feet-elevated',
+        'band-resisted-close-grip-pushup',
+        'bench-dip-chairs',
+        'band-resisted-bench-dip',
+      ]),
+    );
+    // weighted-bench-dip exists specifically to add external load, so it
+    // should NOT be flagged bodyweight even though it shares the pattern.
+    expect(EXERCISES.find((e) => e.id === 'weighted-bench-dip')?.bodyweight).toBeFalsy();
+  });
 });

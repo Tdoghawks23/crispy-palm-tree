@@ -58,6 +58,76 @@ describe('progression (R10)', () => {
     }
   });
 
+  describe('bodyweight exercises (QA should-fix 2)', () => {
+    it('no history: guidance omits weight language', () => {
+      const result = suggestProgression({
+        repRangeMax: 20,
+        targetRIR: '1–2',
+        mostRecentSets: [],
+        bodyweight: true,
+      });
+      expect(result.kind).toBe('no-history');
+      expect(result.message).not.toMatch(/weight/i);
+      expect(result.message).not.toMatch(/\d+\s*lb/);
+    });
+
+    it('hit top of rep range: suggests the harder variation, not a weight bump', () => {
+      const result = suggestProgression({
+        repRangeMax: 20,
+        targetRIR: '1–2',
+        mostRecentSets: [{ weight: 0, reps: 20 }],
+        bodyweight: true,
+        progressionCue: 'elevate feet if 20 reps easy',
+      });
+      expect(result.kind).toBe('increase-difficulty');
+      if (result.kind === 'increase-difficulty') {
+        expect(result.message).toMatch(/harder variation/);
+        expect(result.message).toMatch(/elevate feet if 20 reps easy/);
+      }
+      expect(result.message).not.toMatch(/\d+\.?\d*\s*lb/);
+    });
+
+    it('hit top of rep range without a progression cue: still suggests harder variation generically', () => {
+      const result = suggestProgression({
+        repRangeMax: 20,
+        targetRIR: '1–2',
+        mostRecentSets: [{ weight: 0, reps: 20 }],
+        bodyweight: true,
+      });
+      expect(result.kind).toBe('increase-difficulty');
+      if (result.kind === 'increase-difficulty') {
+        expect(result.message).toMatch(/harder variation/);
+      }
+    });
+
+    it('did not hit top of range with no added weight logged: suggests +1 rep, omits weight', () => {
+      const result = suggestProgression({
+        repRangeMax: 20,
+        targetRIR: '1–2',
+        mostRecentSets: [{ weight: 0, reps: 15 }],
+        bodyweight: true,
+      });
+      expect(result.kind).toBe('increase-reps');
+      if (result.kind === 'increase-reps') {
+        expect(result.suggestedReps).toBe(16);
+        expect(result.message).not.toMatch(/weight/i);
+      }
+    });
+
+    it('did not hit top of range but added weight was logged: still mentions the added weight', () => {
+      const result = suggestProgression({
+        repRangeMax: 20,
+        targetRIR: '1–2',
+        mostRecentSets: [{ weight: 10, reps: 15 }],
+        bodyweight: true,
+      });
+      expect(result.kind).toBe('increase-reps');
+      if (result.kind === 'increase-reps') {
+        expect(result.message).toMatch(/10 lb/);
+      }
+    });
+  });
+
   describe('parseRepRangeMax', () => {
     it('parses the top of a standard rep range', () => {
       expect(parseRepRangeMax('8–15 reps @ RIR 1–2')).toBe(15);

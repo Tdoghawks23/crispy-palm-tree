@@ -75,6 +75,17 @@ export interface Exercise {
   variants?: string[];
   /** false = one of the 17 source exercises; true = R3 pool-expansion alternate. */
   authored: boolean;
+  /**
+   * True for exercises whose primary load is the trainee's own bodyweight
+   * (close-grip push-up and bodyweight dip variants). Drives two things:
+   * the session screen treats the weight input as optional/de-emphasized
+   * for these, and progression.ts suggests a harder variation at the top
+   * of the rep range instead of a weight increment. Exercises that are
+   * explicitly about adding external load (e.g. weighted bench-dip) are
+   * NOT flagged bodyweight even though they share the pattern, since
+   * tracking weight is the point of choosing that variation.
+   */
+  bodyweight?: boolean;
 }
 
 export const EXERCISES: Exercise[] = [
@@ -324,6 +335,7 @@ export const EXERCISES: Exercise[] = [
     equipment: ['pushup-board'],
     formCues: 'Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1-2.',
     authored: false,
+    bodyweight: true,
   },
   {
     id: 'close-grip-pushup-feet-elevated',
@@ -333,6 +345,7 @@ export const EXERCISES: Exercise[] = [
     equipment: ['pushup-board', 'plates'],
     formCues: '3-1-1 tempo; slight protraction at top.',
     authored: false,
+    bodyweight: true,
   },
   {
     id: 'band-resisted-close-grip-pushup',
@@ -342,6 +355,7 @@ export const EXERCISES: Exercise[] = [
     equipment: ['pushup-board', 'bands'],
     formCues: 'Band across upper back anchored under hands; 3-1-1 tempo, elbows tucked.',
     authored: true,
+    bodyweight: true,
   },
 
   // ---------------------------------------------------------------------
@@ -357,6 +371,7 @@ export const EXERCISES: Exercise[] = [
     equipment: ['chairs'],
     formCues: 'Knees bent to straight to progress; shoulders packed; smooth bottom, no shoulder glide.',
     authored: false,
+    bodyweight: true,
   },
   {
     id: 'weighted-bench-dip',
@@ -366,6 +381,9 @@ export const EXERCISES: Exercise[] = [
     equipment: ['chairs', 'plates'],
     formCues: 'Plate on lap; shoulders packed, smooth bottom, no shoulder glide.',
     authored: true,
+    // Not flagged bodyweight: the point of this variation over the plain
+    // bench-dip original is adding external load, so weight tracking stays
+    // primary here.
   },
   {
     id: 'band-resisted-bench-dip',
@@ -375,6 +393,7 @@ export const EXERCISES: Exercise[] = [
     equipment: ['chairs', 'bands'],
     formCues: 'Band anchored under front chair, looped over shoulders; shoulders packed, smooth bottom.',
     authored: true,
+    bodyweight: true,
   },
 
   // ---------------------------------------------------------------------

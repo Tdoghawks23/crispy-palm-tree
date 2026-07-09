@@ -19,6 +19,17 @@
  * (isolation/light dumbbell work, where a flat 5 lb jump is proportionally
  * large) and 5 lb otherwise (typical smallest realistic plate jump: two
  * 2.5 lb plates across a barbell/EZ-bar, one per side).
+ *
+ * Bodyweight exercises (close-grip push-up / dip variants, per the
+ * catalog's `bodyweight` flag) don't get a weight-bump suggestion — a
+ * fixed lb increment is meaningless when the load is mostly the trainee's
+ * own bodyweight. At the top of the rep range these instead suggest the
+ * harder variation named in the source notes (e.g. "elevate feet if 20
+ * reps easy", "knees bent->straight to progress"), passed in by the caller
+ * as `progressionCue` so this module doesn't need to know about the
+ * exercise catalog. Below range-top, bodyweight sets still get the +1-rep
+ * suggestion; optional added weight (if any was logged) is still
+ * mentioned since some trainees load these with a plate/vest.
  */
 
 export interface LoggedSet {
@@ -29,7 +40,8 @@ export interface LoggedSet {
 export type ProgressionSuggestion =
   | { kind: 'no-history'; message: string }
   | { kind: 'increase-weight'; message: string; suggestedWeight: number }
-  | { kind: 'increase-reps'; message: string; suggestedReps: number; weight: number };
+  | { kind: 'increase-reps'; message: string; suggestedReps: number; weight: number }
+  | { kind: 'increase-difficulty'; message: string };
 
 const SMALL_LOAD_THRESHOLD = 20;
 const SMALL_LOAD_INCREMENT = 2.5;
@@ -65,20 +77,31 @@ export function suggestProgression(params: {
   repRangeMax: number;
   targetRIR: string;
   mostRecentSets: LoggedSet[];
+  /** True for close-grip push-up/dip-style bodyweight exercises (catalog `bodyweight` flag). */
+  bodyweight?: boolean;
+  /** Source-derived harder-variation cue (e.g. "elevate feet if 20 reps easy"), shown at range-top for bodyweight exercises instead of a weight bump. */
+  progressionCue?: string;
 }): ProgressionSuggestion {
-  const { repRangeMax, targetRIR, mostRecentSets } = params;
+  const { repRangeMax, targetRIR, mostRecentSets, bodyweight = false, progressionCue } = params;
 
   if (mostRecentSets.length === 0) {
-    return {
-      kind: 'no-history',
-      message: `No history yet — aim for the middle of the rep range at RIR ${targetRIR}, pick a weight you can control for all sets.`,
-    };
+    const guidance = bodyweight
+      ? `No history yet — aim for the middle of the rep range at RIR ${targetRIR} with strict form.`
+      : `No history yet — aim for the middle of the rep range at RIR ${targetRIR}, pick a weight you can control for all sets.`;
+    return { kind: 'no-history', message: guidance };
   }
 
   const hitTopOfRange = mostRecentSets.every((set) => set.reps >= repRangeMax);
   const lastSet = mostRecentSets[mostRecentSets.length - 1];
 
   if (hitTopOfRange) {
+    if (bodyweight) {
+      const cue = progressionCue ? ` Try: ${progressionCue}` : '';
+      return {
+        kind: 'increase-difficulty',
+        message: `Hit ${repRangeMax} reps at RIR ${targetRIR} last time — move to a harder variation.${cue}`,
+      };
+    }
     const increment = weightIncrementFor(lastSet.weight);
     const suggestedWeight = lastSet.weight + increment;
     return {
@@ -89,9 +112,15 @@ export function suggestProgression(params: {
   }
 
   const suggestedReps = lastSet.reps + 1;
+  // Mention weight only when it's meaningful: always for loaded exercises,
+  // and for bodyweight exercises only if the trainee actually logged some
+  // added weight (plate/vest) rather than the 0 default.
+  const mentionWeight = !bodyweight || lastSet.weight > 0;
   return {
     kind: 'increase-reps',
-    message: `Same weight (${lastSet.weight} lb), aim for ${suggestedReps} reps next session.`,
+    message: mentionWeight
+      ? `Same weight (${lastSet.weight} lb), aim for ${suggestedReps} reps next session.`
+      : `Aim for ${suggestedReps} reps next session.`,
     suggestedReps,
     weight: lastSet.weight,
   };
