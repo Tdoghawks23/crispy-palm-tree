@@ -1,0 +1,4665 @@
+{
+  "4-day": [
+    {
+      "week": 1,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Use 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8); strict form.",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 2,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral. (Deload RIR 3–4) — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed. — DELOAD: RIR 3–4, no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium (Deload) grip",
+          "gripVariant": "Medium (Deload) grip",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 2,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists. — DELOAD: RIR 3–4, no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 2,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 2,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased) — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 1,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned. — DELOAD: RIR 3–4, no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 2,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 2,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo. — DELOAD: RIR 3–4, no intensifiers."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 1,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce. — DELOAD: RIR 3–4, no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Mon",
+      "session": "Push",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "Tempo 3-1-1; elevate feet if 20 reps easy; last set RIR 1–2.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Tempo 3-0-1; lower behind head; wrists neutral.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knees bent→straight to progress; shoulders packed.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Tue",
+      "session": "Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze; no swinging.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (hinge; chest to thighs / back-to-wall)",
+          "gripVariant": "hinge; chest to thighs / back-to-wall",
+          "sets": 3,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Thu",
+      "session": "Pull",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 4,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; torso 30–45°.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; don’t shrug. Use thick sleeves if owned.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Sat",
+      "session": "Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction at top.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Bar path nose→chest; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "bench-dip-chairs",
+          "pattern": "dip",
+          "sourceExerciseName": "Bench-dip between chairs",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Smooth bottom; no shoulder glide.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Strict form; 3-1-1 tempo.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Controlled; full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    }
+  ],
+  "3-day": [
+    {
+      "week": 1,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M1",
+      "mesoLabel": "M1: Base/Skill — 3–4s eccentrics; focus technique.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Add 1¼ reps on sets 1–2 (Wks 5–8)",
+          "intensifiers": {
+            "quarterRepsSets": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce."
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M2",
+      "mesoLabel": "M2: Overload — add 1¼ reps on EZ curls (sets 1–2); 1 mini rest-pause on last CG push-up set.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)"
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "intensifiers": {
+            "restPauseLastSet": true
+          }
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium (Deload) grip",
+          "gripVariant": "Medium (Deload) grip",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 2,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 2,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 1,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists. — DELOAD: RIR 3–4; no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 2,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 2,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 1,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce. — DELOAD: RIR 3–4; no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "deload",
+      "mesoLabel": "Deload — ~50–60% sets; RIR 3–4; no intensifiers.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 2,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 1,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 2,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased) — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 2,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 1,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists. — DELOAD: RIR 3–4; no intensifiers."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 1,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug. — DELOAD: RIR 3–4; no intensifiers."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Wide grip",
+          "gripVariant": "Wide grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Narrow grip",
+          "gripVariant": "Narrow grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Mon",
+      "session": "Upper/Arms A",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 4,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "underhand-barbell-row",
+          "pattern": "row-horizontal",
+          "sourceExerciseName": "Underhand barbell row from hinge",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "Pause 1s at ribs; biceps bias.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "ez-bar-reverse-curl",
+          "pattern": "curl-reverse",
+          "sourceExerciseName": "EZ-bar reverse curl",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Knuckles up; control wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Wed",
+      "session": "Lower-lite + Arms B",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "close-grip-pushup-feet-elevated",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (feet elevated/weighted)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; slight protraction.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "ez-bar-jm-press",
+          "pattern": "triceps-jm-press",
+          "sourceExerciseName": "EZ-bar JM press",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Nose→chest path; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "overhead-triceps-extension-db",
+          "pattern": "triceps-overhead",
+          "sourceExerciseName": "Overhead triceps extension (single DB)",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Deep stretch; ribs down; elbows in.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "ez-bar-curl",
+          "pattern": "curl-ez",
+          "sourceExerciseName": "EZ-bar curl — Medium grip",
+          "gripVariant": "Medium grip",
+          "sets": 3,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "3-1-1 tempo; strict.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "wrist-curl-superset",
+          "pattern": "wrist-flexion-extension",
+          "sourceExerciseName": "Wrist curl + reverse wrist curl (superset)",
+          "sets": 2,
+          "reps": "12–20 reps each (superset)",
+          "notes": "Full ROM; no bounce.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "day": "Fri",
+      "session": "Arms Focus",
+      "mesoId": "M3",
+      "mesoLabel": "M3: Density — return to M2 sets; cut rests ~15–20% if joints feel good.",
+      "slots": [
+        {
+          "slotIndex": 0,
+          "exerciseId": "db-hammer-curl",
+          "pattern": "curl-hammer",
+          "sourceExerciseName": "DB hammer curl",
+          "sets": 3,
+          "reps": "10–15 reps @ RIR 1–2",
+          "notes": "Neutral grip; 1s squeeze.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 1,
+          "exerciseId": "spider-curl",
+          "pattern": "curl-spider",
+          "sourceExerciseName": "‘Spider’ curl (no bench)",
+          "gripVariant": "no bench",
+          "sets": 2,
+          "reps": "12–20 reps @ RIR 1–2",
+          "notes": "Strict; constant tension.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 2,
+          "exerciseId": "one-arm-db-row",
+          "pattern": "row-unilateral",
+          "sourceExerciseName": "1-arm DB row (long squeeze)",
+          "sets": 3,
+          "reps": "8–12 (BB) / 10–15 (DB) @ RIR 1–2",
+          "notes": "1s squeeze at top; control down. (Swap to BAND pulldown 3×10–15 if purchased)",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 3,
+          "exerciseId": "close-grip-pushup-board-narrow",
+          "pattern": "close-grip-pushup",
+          "sourceExerciseName": "Close-grip push-up (board narrow)",
+          "sets": 3,
+          "reps": "10–20 reps @ RIR 1–2 (last set)",
+          "notes": "3-1-1 tempo; elbows tucked.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 4,
+          "exerciseId": "floor-ez-bar-skull-crusher",
+          "pattern": "triceps-skull-crusher",
+          "sourceExerciseName": "Floor EZ-bar skull crusher",
+          "sets": 2,
+          "reps": "8–15 reps @ RIR 1–2",
+          "notes": "Behind-head stretch; neutral wrists.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        },
+        {
+          "slotIndex": 5,
+          "exerciseId": "timed-bar-holds",
+          "pattern": "grip-isometric",
+          "sourceExerciseName": "Timed bar holds (double overhand)",
+          "sets": 2,
+          "reps": "30–45s holds @ RIR 1–2",
+          "notes": "Shoulders packed; no shrug.",
+          "restCutGuidance": "Cut rest ~15–20% vs M2 if joints feel good (display-only guidance; no enforced timer)."
+        }
+      ]
+    }
+  ]
+}
