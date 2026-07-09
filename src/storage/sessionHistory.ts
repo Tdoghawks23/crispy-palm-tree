@@ -18,15 +18,27 @@ export interface SessionSetGroup {
   sets: LoggedSet[];
 }
 
-function dateKeyFor(timestamp: number): string {
-  return new Date(timestamp).toISOString().slice(0, 10);
+/**
+ * Calendar-day key in the *local* timezone (not UTC). This is a phone app
+ * for a single user training in one place — bucketing by UTC day would
+ * split a late-evening US workout across two "sessions" whenever it
+ * crosses UTC midnight (QA should-fix 3). Exported so callers (e.g. the
+ * Progress screen's "distinct training days logged" count) use the same
+ * bucketing instead of re-deriving it with `toISOString()`.
+ */
+export function localDateKey(timestamp: number): string {
+  const d = new Date(timestamp);
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 /** Groups logs (any order) into per-day sessions, sorted oldest day first. */
 export function groupLogsByDay(logs: SetLogEntry[]): SessionSetGroup[] {
   const groups = new Map<string, LoggedSet[]>();
   for (const log of [...logs].sort((a, b) => a.timestamp - b.timestamp)) {
-    const key = dateKeyFor(log.timestamp);
+    const key = localDateKey(log.timestamp);
     const bucket = groups.get(key);
     if (bucket) {
       bucket.push({ weight: log.weight, reps: log.reps });

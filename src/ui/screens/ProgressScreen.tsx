@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getAllSetLogs, type ProgramState, type SetLogEntry } from '../../storage/db';
-import { groupLogsByDay } from '../../storage/sessionHistory';
+import { groupLogsByDay, localDateKey } from '../../storage/sessionHistory';
 import { EXERCISES } from '../../data/exercises';
 import { TRAINING_DAYS, TOTAL_WEEKS } from '../../data/program';
 import { SparklineChart } from '../components/SparklineChart';
@@ -36,9 +36,7 @@ export function ProgressScreen({ programState }: Props) {
 
   const byExercise = groupByExercise(logs);
   const totalTrainingDays = TRAINING_DAYS[programState.variant].length * TOTAL_WEEKS;
-  const distinctLoggedDays = new Set(
-    logs.map((l) => new Date(l.timestamp).toISOString().slice(0, 10)),
-  ).size;
+  const distinctLoggedDays = new Set(logs.map((l) => localDateKey(l.timestamp))).size;
   const weeksCompleted = Math.max(0, programState.week - 1);
 
   return (
@@ -59,7 +57,8 @@ export function ProgressScreen({ programState }: Props) {
           aria-label={`${weeksCompleted} of ${TOTAL_WEEKS} weeks completed`}
         />
         <p>
-          {distinctLoggedDays} of {totalTrainingDays} {programState.variant} training days logged
+          {distinctLoggedDays} training days logged (all time) — a full {programState.variant} cycle is{' '}
+          {totalTrainingDays} days
         </p>
       </section>
 
