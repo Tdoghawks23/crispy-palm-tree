@@ -13,6 +13,7 @@ import {
   repeatDay,
   saveProgramState,
   saveSessionProgress,
+  setWeekDay,
   skipDay,
   switchVariant,
 } from '../db';
@@ -67,6 +68,7 @@ describe('program state (R11, R14)', () => {
       week: 1,
       day: 'Mon',
       checkedSteps: ['warmup-0'],
+      setInputs: {},
       updatedAt: 1,
     });
     const before = await getProgramState();
@@ -89,6 +91,18 @@ describe('program state (R11, R14)', () => {
     const before = await getProgramState();
     const after = await switchVariant('4-day');
     expect(after).toEqual(before);
+  });
+
+  it('setWeekDay jumps directly to a week/day without touching rotation state (R19 manual override)', async () => {
+    const before = await getProgramState();
+    const after = await setWeekDay(6, 'Thu');
+    expect(after.week).toBe(6);
+    expect(after.day).toBe('Thu');
+    expect(after.rotationState).toEqual(before.rotationState);
+  });
+
+  it('setWeekDay rejects a day that is not a training day for the active variant', async () => {
+    await expect(setWeekDay(6, 'Wed')).rejects.toThrow();
   });
 });
 
@@ -123,6 +137,7 @@ describe('in-progress session state (R13)', () => {
       week: 1,
       day: 'Mon',
       checkedSteps: ['warmup-0'],
+      setInputs: {},
       updatedAt: 1,
     });
     await saveSessionProgress({
@@ -130,6 +145,7 @@ describe('in-progress session state (R13)', () => {
       week: 1,
       day: 'Mon',
       checkedSteps: ['warmup-0', 'main-0-set-0'],
+      setInputs: {},
       updatedAt: 2,
     });
     const progress = await getSessionProgress();
@@ -142,6 +158,7 @@ describe('in-progress session state (R13)', () => {
       week: 1,
       day: 'Mon',
       checkedSteps: ['warmup-0'],
+      setInputs: {},
       updatedAt: 1,
     });
     await clearSessionProgress();

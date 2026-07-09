@@ -50,6 +50,8 @@ export interface SessionProgress {
   day: string;
   /** Ids of checked warm-up/main/cool-down steps, e.g. "main-2-set-1". */
   checkedSteps: string[];
+  /** In-progress weight/reps input values keyed by the same step ids, saved before a set is checked off. */
+  setInputs: Record<string, { weight?: number; reps?: number }>;
   updatedAt: number;
 }
 
@@ -181,6 +183,22 @@ export async function switchVariant(newVariant: Variant): Promise<ProgramState> 
     day: TRAINING_DAYS[newVariant][0],
     rotationState: current.rotationState,
   };
+  await saveProgramState(nextState);
+  await clearSessionProgress();
+  return nextState;
+}
+
+/**
+ * Manual week/day override (R19 program-overview screen). Unlike
+ * completeSession/skipDay this does not advance rotation state — it's a
+ * direct jump, not a training-day transition.
+ */
+export async function setWeekDay(week: number, day: string): Promise<ProgramState> {
+  const current = await getProgramState();
+  if (!TRAINING_DAYS[current.variant].includes(day)) {
+    throw new Error(`"${day}" is not a training day for the ${current.variant} variant`);
+  }
+  const nextState: ProgramState = { ...current, week, day };
   await saveProgramState(nextState);
   await clearSessionProgress();
   return nextState;

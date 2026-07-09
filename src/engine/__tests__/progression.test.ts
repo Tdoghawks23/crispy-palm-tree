@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseRepRangeMax, suggestProgression } from '../progression';
+import { parseRepRangeMax, parseTargetRIR, suggestProgression } from '../progression';
 
 describe('progression (R10)', () => {
   it('no history: falls back to rep-range/RIR guidance, never a fabricated number', () => {
@@ -69,6 +69,20 @@ describe('progression (R10)', () => {
 
     it('returns undefined for non-rep prescriptions like timed holds', () => {
       expect(parseRepRangeMax('30–45s holds @ RIR 1–2')).toBeUndefined();
+    });
+  });
+
+  describe('parseTargetRIR', () => {
+    it('parses the RIR target out of a reps string', () => {
+      expect(parseTargetRIR('8–15 reps @ RIR 1–2')).toBe('1–2');
+    });
+
+    it('parses RIR with trailing annotations', () => {
+      expect(parseTargetRIR('10–20 reps @ RIR 1–2 (last set)')).toBe('1–2');
+    });
+
+    it('returns undefined when no RIR is present', () => {
+      expect(parseTargetRIR('12–20 reps each (superset)')).toBeUndefined();
     });
   });
 });

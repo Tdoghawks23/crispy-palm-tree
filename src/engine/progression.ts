@@ -51,6 +51,16 @@ export function parseRepRangeMax(reps: string): number | undefined {
   return Number(match[2]);
 }
 
+/**
+ * Parses the target RIR out of a source `reps` string, e.g.
+ * "8–15 reps @ RIR 1–2" -> "1–2". Returns undefined if the slot doesn't
+ * carry an RIR target (none observed in the source data, but don't assume).
+ */
+export function parseTargetRIR(reps: string): string | undefined {
+  const match = reps.match(/RIR\s*([\d–-]+)/i);
+  return match ? match[1] : undefined;
+}
+
 export function suggestProgression(params: {
   repRangeMax: number;
   targetRIR: string;
