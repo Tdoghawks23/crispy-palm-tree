@@ -35,6 +35,8 @@ export function SparklineChart({ values, width = 260, height = 64, label }: Prop
   });
 
   const points = coords.map((c) => `${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(' ');
+  const areaPoints = `${padding},${height - padding} ${points} ${width - padding},${height - padding}`;
+  const lastIdx = coords.length - 1;
 
   return (
     <svg
@@ -45,10 +47,19 @@ export function SparklineChart({ values, width = 260, height = 64, label }: Prop
       viewBox={`0 0 ${width} ${height}`}
       className="sparkline"
     >
+      {/* Faint fill under the line — makes the trend read as a shape at a
+          glance, not just a thin wire. */}
+      <polygon points={areaPoints} fill="currentColor" fillOpacity={0.12} stroke="none" />
       <polyline fill="none" stroke="currentColor" strokeWidth={2} points={points} />
-      {coords.map((c, i) => (
-        <circle key={i} cx={c.x} cy={c.y} r={3} fill="currentColor" />
-      ))}
+      {coords.map((c, i) =>
+        i === lastIdx ? (
+          // Emphasize the most recent session — the number the lifter
+          // actually cares about right now.
+          <circle key={i} cx={c.x} cy={c.y} r={4.5} fill="currentColor" />
+        ) : (
+          <circle key={i} cx={c.x} cy={c.y} r={2.5} fill="currentColor" fillOpacity={0.55} />
+        ),
+      )}
     </svg>
   );
 }

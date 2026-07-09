@@ -1,15 +1,91 @@
+/*
+ * Design tokens — a small, reused system (CLAUDE.md: single-user, phone-first,
+ * garage/home-gym lighting). One committed look: dark, high-contrast, legible
+ * under poor lighting, with a single warm accent used consistently for the
+ * "act on this now" role (R20's active-set prominence, the primary CTA, the
+ * tab bar's active state) plus semantic success/danger/muted roles. No new
+ * hues beyond these four roles — reuse, don't add.
+ */
 :root {
-  color-scheme: light dark;
-  font: 16px/1.4 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+
+  /* Surfaces — matches manifest theme_color/background_color (#1a1a1e) so
+     there's no flash-of-different-color between PWA splash and app paint. */
+  --bg: #1a1a1e;
+  --bg-raised: #222226;
+  --bg-inset: #2b2b30;
+  --border: #3a3a40;
+  --border-strong: #55555d;
+
+  /* Text */
+  --text: #f3f3f0;
+  --text-muted: #a8a8b2;
+  --text-faint: #757580;
+
+  /* Semantic roles — action / success / danger / muted. Reused everywhere;
+     do not introduce a fifth hue. */
+  --action: #ff9f1c;
+  --action-strong: #ffb64d;
+  --action-ink: #2a1600;
+  --success: #35d489;
+  --success-ink: #04170d;
+  --danger: #ff6b6b;
+  --danger-ink: #2a0808;
+  --focus-ring: #ffcf8a;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* Type scale */
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.4rem;
+
+  font: 16px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background: var(--bg);
+  color: var(--text);
 }
 
 #root {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--action);
+  color: var(--action-ink);
 }

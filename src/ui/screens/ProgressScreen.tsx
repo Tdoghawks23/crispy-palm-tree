@@ -52,6 +52,12 @@ export function ProgressScreen({ programState }: Props) {
         <p>
           Week {programState.week} of {TOTAL_WEEKS} ({weeksCompleted} weeks completed)
         </p>
+        <progress
+          className="completion-bar"
+          value={weeksCompleted}
+          max={TOTAL_WEEKS}
+          aria-label={`${weeksCompleted} of ${TOTAL_WEEKS} weeks completed`}
+        />
         <p>
           {distinctLoggedDays} of {totalTrainingDays} {programState.variant} training days logged
         </p>

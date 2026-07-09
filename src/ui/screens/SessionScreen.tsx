@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { generateSession, type SessionSlot } from '../../engine/generateSession';
 import { parseRepRangeMax, parseTargetRIR, suggestProgression } from '../../engine/progression';
 import { TRAINING_DAYS } from '../../data/program';
@@ -49,6 +49,20 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
   const [progress, setProgress] = useState<SessionProgress | null>(null);
   const [suggestions, setSuggestions] = useState<Record<string, string>>({});
   const [showRestartConfirm, setShowRestartConfirm] = useState(false);
+  const restartDialogRef = useRef<HTMLDialogElement>(null);
+
+  // Drive the native <dialog> imperatively (showModal/close) from the React
+  // boolean state — gives real dialog semantics (focus trap, ::backdrop,
+  // Escape-to-dismiss) instead of a plain styled <div> (R20 known weak spot).
+  useEffect(() => {
+    const dialog = restartDialogRef.current;
+    if (!dialog) return;
+    if (showRestartConfirm && !dialog.open) {
+      dialog.showModal();
+    } else if (!showRestartConfirm && dialog.open) {
+      dialog.close();
+    }
+  }, [showRestartConfirm]);
 
   // Load (or start fresh) in-progress session state whenever the active
   // session identity changes — this is what restores exactly where the
@@ -193,9 +207,11 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
                     checked={progress.checkedSteps.includes(id)}
                     onChange={() => void toggleSimpleStep(id)}
                   />
-                  <span className="step-component">{step.component}</span>{' '}
-                  <span className="step-dosage">({step.dosage})</span>
-                  <p className="step-what">{step.what}</p>
+                  <div className="step-text">
+                    <span className="step-component">{step.component}</span>{' '}
+                    <span className="step-dosage">({step.dosage})</span>
+                    <p className="step-what">{step.what}</p>
+                  </div>
                 </label>
               </li>
             );
@@ -229,41 +245,74 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
             )}
 
             <ol className="set-list">
-              {Array.from({ length: slot.sets }, (_, setIdx) => {
-                const id = `main-${slot.slotIndex}-set-${setIdx}`;
-                const checked = progress.checkedSteps.includes(id);
-                const inputs = progress.setInputs[id] ?? {};
-                return (
-                  <li key={id} className="set-row">
-                    <span className="set-number">Set {setIdx + 1}</span>
-                    <input
-                      type="number"
-                      inputMode="decimal"
-                      aria-label={`Weight for set ${setIdx + 1}`}
-                      placeholder="lb"
-                      value={inputs.weight ?? ''}
-                      onChange={(e) => updateSetInput(id, 'weight', e.target.value)}
-                    />
-                    <input
-                      type="number"
-                      inputMode="numeric"
-                      aria-label={`Reps for set ${setIdx + 1}`}
-                      placeholder="reps"
-                      value={inputs.reps ?? ''}
-                      onChange={(e) => updateSetInput(id, 'reps', e.target.value)}
-                    />
-                    <label className="set-check">
-                      <input
-                        type="checkbox"
-                        checked={checked}
-                        disabled={!checked && (inputs.weight === undefined || inputs.reps === undefined)}
-                        onChange={() => void toggleMainSet(slot, setIdx)}
-                      />
-                      Done
-                    </label>
-                  </li>
+              {(() => {
+                const setIds = Array.from(
+                  { length: slot.sets },
+                  (_, i) => `main-${slot.slotIndex}-set-${i}`,
                 );
-              })}
+                const firstUncheckedIdx = setIds.findIndex(
+                  (id) => !progress.checkedSteps.includes(id),
+                );
+                return setIds.map((id, setIdx) => {
+                  const checked = progress.checkedSteps.includes(id);
+                  const isCurrent = !checked && setIdx === firstUncheckedIdx;
+                  const inputs = progress.setInputs[id] ?? {};
+                  const rowClass = [
+                    'set-row',
+                    isCurrent && 'set-row--current',
+                    checked && 'set-row--done',
+                  ]
+                    .filter(Boolean)
+                    .join(' ');
+                  return (
+                    <li key={id} className={rowClass}>
+                      <div className="set-row-top">
+                        <span className="set-number">Set {setIdx + 1}</span>
+                        {isCurrent && <span className="set-current-badge">Up now</span>}
+                        {checked && !isCurrent && <span className="set-done-badge">Logged</span>}
+                      </div>
+                      <div className="set-fields">
+                        <label className="set-field">
+                          <span className="set-field-label">Weight (lb)</span>
+                          <input
+                            type="number"
+                            inputMode="decimal"
+                            aria-label={`Weight for set ${setIdx + 1}`}
+                            placeholder="lb"
+                            value={inputs.weight ?? ''}
+                            onChange={(e) => updateSetInput(id, 'weight', e.target.value)}
+                          />
+                        </label>
+                        <label className="set-field">
+                          <span className="set-field-label">Reps</span>
+                          <input
+                            type="number"
+                            inputMode="numeric"
+                            aria-label={`Reps for set ${setIdx + 1}`}
+                            placeholder="reps"
+                            value={inputs.reps ?? ''}
+                            onChange={(e) => updateSetInput(id, 'reps', e.target.value)}
+                          />
+                        </label>
+                        <label className={`set-check${checked ? ' set-check--done' : ''}`}>
+                          <input
+                            type="checkbox"
+                            aria-label={`Mark set ${setIdx + 1} done`}
+                            checked={checked}
+                            disabled={
+                              !checked && (inputs.weight === undefined || inputs.reps === undefined)
+                            }
+                            onChange={() => void toggleMainSet(slot, setIdx)}
+                          />
+                          <span className="set-check-label" aria-hidden="true">
+                            Done
+                          </span>
+                        </label>
+                      </div>
+                    </li>
+                  );
+                });
+              })()}
             </ol>
           </article>
         ))}
@@ -282,9 +331,11 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
                     checked={progress.checkedSteps.includes(id)}
                     onChange={() => void toggleSimpleStep(id)}
                   />
-                  <span className="step-component">{step.component}</span>{' '}
-                  <span className="step-dosage">({step.dosage})</span>
-                  <p className="step-what">{step.what}</p>
+                  <div className="step-text">
+                    <span className="step-component">{step.component}</span>{' '}
+                    <span className="step-dosage">({step.dosage})</span>
+                    <p className="step-what">{step.what}</p>
+                  </div>
                 </label>
               </li>
             );
@@ -296,18 +347,33 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
         Complete session
       </button>
 
-      {showRestartConfirm && (
-        <div className="restart-confirm" role="dialog" aria-label="Program complete">
-          <p>You've completed the 12-week program! Restart from Week 1?</p>
-          <p className="restart-note">Your logged history is kept — only the current week/day resets.</p>
-          <button type="button" onClick={() => void doComplete()}>
+      <dialog
+        ref={restartDialogRef}
+        className="restart-confirm"
+        role="alertdialog"
+        aria-labelledby="restart-confirm-heading"
+        aria-describedby="restart-confirm-note"
+        onCancel={(e) => {
+          // Escape key fires the native `cancel` event before `close` —
+          // intercept it so state (and thus dialog.close()) stays in sync.
+          e.preventDefault();
+          setShowRestartConfirm(false);
+        }}
+        onClose={() => setShowRestartConfirm(false)}
+      >
+        <p id="restart-confirm-heading">You've completed the 12-week program! Restart from Week 1?</p>
+        <p id="restart-confirm-note" className="restart-note">
+          Your logged history is kept — only the current week/day resets.
+        </p>
+        <div className="restart-confirm-actions">
+          <button type="button" className="danger" onClick={() => void doComplete()}>
             Restart from Week 1
           </button>
           <button type="button" onClick={() => setShowRestartConfirm(false)}>
             Not yet
           </button>
         </div>
-      )}
+      </dialog>
     </div>
   );
 }
