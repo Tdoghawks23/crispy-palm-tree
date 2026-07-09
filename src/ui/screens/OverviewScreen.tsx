@@ -1,6 +1,6 @@
-import { useState, type FormEvent } from 'react';
+import { useRef, useState, type FormEvent } from 'react';
 import { TRAINING_DAYS, TOTAL_WEEKS, type Variant } from '../../data/program';
-import { setWeekDay, switchVariant, type ProgramState } from '../../storage/db';
+import { repeatDay, setWeekDay, skipDay, switchVariant, type ProgramState } from '../../storage/db';
 
 interface Props {
   programState: ProgramState;
@@ -10,6 +10,12 @@ interface Props {
 export function OverviewScreen({ programState, onProgramStateChange }: Props) {
   const [week, setWeek] = useState(programState.week);
   const [day, setDay] = useState(programState.day);
+
+  // Same in-flight guard pattern as SessionScreen's "Complete session" fix
+  // (QA blocker): a ref, checked/set synchronously, so a double-tap on
+  // Skip/Repeat day is a no-op instead of a second real state transition.
+  const actionInFlightRef = useRef(false);
+  const [actionInFlight, setActionInFlight] = useState(false);
 
   async function handleVariantSwitch(next: Variant) {
     if (next === programState.variant) return;
@@ -23,6 +29,40 @@ export function OverviewScreen({ programState, onProgramStateChange }: Props) {
     e.preventDefault();
     const updated = await setWeekDay(week, day);
     onProgramStateChange(updated);
+  }
+
+  async function handleSkipDay() {
+    if (actionInFlightRef.current) return;
+    actionInFlightRef.current = true;
+    setActionInFlight(true);
+    try {
+      const updated = await skipDay({
+        variant: programState.variant,
+        week: programState.week,
+        day: programState.day,
+      });
+      onProgramStateChange(updated);
+      setWeek(updated.week);
+      setDay(updated.day);
+    } finally {
+      actionInFlightRef.current = false;
+      setActionInFlight(false);
+    }
+  }
+
+  async function handleRepeatDay() {
+    if (actionInFlightRef.current) return;
+    actionInFlightRef.current = true;
+    setActionInFlight(true);
+    try {
+      const updated = await repeatDay();
+      onProgramStateChange(updated);
+      setWeek(updated.week);
+      setDay(updated.day);
+    } finally {
+      actionInFlightRef.current = false;
+      setActionInFlight(false);
+    }
   }
 
   const days = TRAINING_DAYS[programState.variant];
@@ -83,6 +123,21 @@ export function OverviewScreen({ programState, onProgramStateChange }: Props) {
           </label>
           <button type="submit">Jump</button>
         </form>
+      </section>
+
+      <section aria-labelledby="day-actions-heading">
+        <h2 id="day-actions-heading">Day actions</h2>
+        <p className="current-state">
+          Current day: Week {programState.week}, {programState.day} ({programState.variant})
+        </p>
+        <div className="day-actions">
+          <button type="button" disabled={actionInFlight} onClick={() => void handleSkipDay()}>
+            {actionInFlight ? 'Working…' : 'Skip day'}
+          </button>
+          <button type="button" disabled={actionInFlight} onClick={() => void handleRepeatDay()}>
+            {actionInFlight ? 'Working…' : 'Repeat day'}
+          </button>
+        </div>
       </section>
     </div>
   );

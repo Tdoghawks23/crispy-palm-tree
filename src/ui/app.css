@@ -507,6 +507,20 @@ main {
   padding: 0 var(--space-4);
 }
 
+.day-actions {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.day-actions button {
+  flex: 1;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
 /* ---------- Progress screen ---------- */
 
 .completion-bar {
