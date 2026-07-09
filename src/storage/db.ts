@@ -35,6 +35,17 @@ export const DEFAULT_PROGRAM_STATE: ProgramState = {
   rotationState: INITIAL_ROTATION_STATE,
 };
 
+/**
+ * The (variant, week, day) triple a caller believes it's currently acting
+ * on. completeSession/skipDay require this and treat a mismatch (program
+ * state has already moved past it) as a no-op — see `advanceProgramState`.
+ */
+export interface SessionIdentity {
+  variant: Variant;
+  week: number;
+  day: string;
+}
+
 export interface SetLogEntry {
   id?: number;
   exerciseId: string;
@@ -131,32 +142,77 @@ export async function saveProgramState(state: ProgramState): Promise<void> {
 }
 
 /**
- * Marks the current session complete: advances rotation state for every
- * pattern used in the just-finished session, then advances day/week (R17,
- * §8 restart-at-week-12 behavior lives in `nextTrainingDay`). The only
- * action that advances program state — partial completion never calls
- * this (R17).
+ * Reads programState and, IF it still matches `expected`, writes
+ * `computeNext(current)` back — all inside a single IndexedDB readwrite
+ * transaction on the programState store. This closes both the atomicity
+ * gap (get/compute/put used to be three separate transactions, letting a
+ * second call interleave between them) and makes a duplicate call a
+ * no-op: IndexedDB serializes readwrite transactions against the same
+ * store, so a second, overlapping call's read is guaranteed to happen
+ * only after the first call's write has committed — at which point
+ * `current` no longer matches `expected`, and this returns the
+ * already-advanced state unchanged instead of advancing a second time.
+ *
+ * Fixes the double-tap "Complete session" bug: two calls for the same
+ * (variant, week, day) racing (or staggered a few ms apart) now advance
+ * state exactly once, never twice.
  */
-export async function completeSession(): Promise<ProgramState> {
-  const current = await getProgramState();
-  const programSession = getSession(current.variant, current.week, current.day);
-  const patternsUsed = programSession
-    ? [...new Set(programSession.slots.map((s) => s.pattern))]
-    : [];
-  const rotationState = advanceRotationState(current.rotationState, patternsUsed);
-  const next = nextTrainingDay(current.variant, current);
-  const nextState: ProgramState = { variant: current.variant, ...next, rotationState };
-  await saveProgramState(nextState);
+async function advanceProgramState(
+  expected: SessionIdentity,
+  computeNext: (current: ProgramState) => ProgramState,
+): Promise<ProgramState> {
+  const db = await getDB();
+  const tx = db.transaction('programState', 'readwrite');
+  const store = tx.objectStore('programState');
+  const current = (await store.get(SINGLETON_KEY)) ?? DEFAULT_PROGRAM_STATE;
+
+  if (
+    current.variant !== expected.variant ||
+    current.week !== expected.week ||
+    current.day !== expected.day
+  ) {
+    await tx.done;
+    return current;
+  }
+
+  const nextState = computeNext(current);
+  await store.put(nextState, SINGLETON_KEY);
+  await tx.done;
+  return nextState;
+}
+
+/**
+ * Marks the session identified by `expected` complete: advances rotation
+ * state for every pattern used in that session, then advances day/week
+ * (R17, §8 restart-at-week-12 behavior lives in `nextTrainingDay`). The
+ * only action that advances program state — partial completion never
+ * calls this (R17). Idempotent per `advanceProgramState` above: a
+ * duplicate/re-entrant call for the same `expected` identity is a no-op.
+ */
+export async function completeSession(expected: SessionIdentity): Promise<ProgramState> {
+  const nextState = await advanceProgramState(expected, (current) => {
+    const programSession = getSession(current.variant, current.week, current.day);
+    const patternsUsed = programSession
+      ? [...new Set(programSession.slots.map((s) => s.pattern))]
+      : [];
+    const rotationState = advanceRotationState(current.rotationState, patternsUsed);
+    const next = nextTrainingDay(current.variant, current);
+    return { variant: current.variant, ...next, rotationState };
+  });
   await clearSessionProgress();
   return nextState;
 }
 
-/** Skips the current day without logging a completed session or rotating exercises. */
-export async function skipDay(): Promise<ProgramState> {
-  const current = await getProgramState();
-  const next = nextTrainingDay(current.variant, current);
-  const nextState: ProgramState = { ...current, ...next };
-  await saveProgramState(nextState);
+/**
+ * Skips the day identified by `expected` without logging a completed
+ * session or rotating exercises. Idempotent the same way completeSession
+ * is — a duplicate call for the same identity is a no-op.
+ */
+export async function skipDay(expected: SessionIdentity): Promise<ProgramState> {
+  const nextState = await advanceProgramState(expected, (current) => {
+    const next = nextTrainingDay(current.variant, current);
+    return { ...current, ...next };
+  });
   await clearSessionProgress();
   return nextState;
 }
@@ -197,6 +253,13 @@ export async function setWeekDay(week: number, day: string): Promise<ProgramStat
   const current = await getProgramState();
   if (!TRAINING_DAYS[current.variant].includes(day)) {
     throw new Error(`"${day}" is not a training day for the ${current.variant} variant`);
+  }
+  // No-op guard (same idea as switchVariant's above): submitting the
+  // already-active week/day shouldn't wipe in-progress session state —
+  // otherwise a mid-session visit to Overview that just re-submits the
+  // current values silently wipes typed-but-unlogged inputs.
+  if (current.week === week && current.day === day) {
+    return current;
   }
   const nextState: ProgramState = { ...current, week, day };
   await saveProgramState(nextState);
