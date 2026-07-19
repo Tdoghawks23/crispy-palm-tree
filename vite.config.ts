@@ -18,8 +18,8 @@ export default defineConfig({
         description: 'Personal 12-week arm-growth workout program.',
         display: 'standalone',
         orientation: 'portrait',
-        theme_color: '#1a1a1e',
-        background_color: '#1a1a1e',
+        theme_color: '#17171b',
+        background_color: '#17171b',
         icons: [
           {
             src: 'pwa-192.png',
