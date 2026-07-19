@@ -70,7 +70,7 @@ export function OverviewScreen({ programState, onProgramStateChange }: Props) {
   return (
     <div className="screen overview-screen">
       <header>
-        <h1>Program overview</h1>
+        <h1>Program</h1>
       </header>
 
       <section aria-labelledby="variant-heading">

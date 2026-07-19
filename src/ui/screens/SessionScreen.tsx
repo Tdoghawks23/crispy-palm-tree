@@ -254,13 +254,42 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
     await doComplete();
   }
 
+  // Derived, display-only: the set-progress header (counter + dots). Keyed on
+  // the same `main-${slotIndex}-set-${i}` ids the set checkboxes toggle, so it
+  // reflects logged state without owning any of it.
+  const mainSetIds = session.mainExercises.flatMap((slot) =>
+    Array.from({ length: slot.sets }, (_, i) => `main-${slot.slotIndex}-set-${i}`),
+  );
+  const totalSets = mainSetIds.length;
+  const doneCount = mainSetIds.filter((id) => progress.checkedSteps.includes(id)).length;
+
   return (
     <div className="screen session-screen">
       <header>
-        <h1>
-          {session.session} — Week {session.week}, {session.day}
-        </h1>
-        <p className="meso-label">{session.mesoLabel}</p>
+        <div className="session-header-top">
+          <div>
+            <h1>{session.session}</h1>
+            <p className="meso-label">
+              Week {session.week} · {session.day}
+            </p>
+            <p className="meso-note">{session.mesoLabel}</p>
+          </div>
+          <div>
+            <div className="set-counter">
+              {doneCount}
+              <span className="den">/{totalSets}</span>
+            </div>
+            <div className="set-counter-label">Sets logged</div>
+          </div>
+        </div>
+        <div className="set-dots" aria-hidden="true">
+          {mainSetIds.map((id) => (
+            <span
+              key={id}
+              className={`set-dot${progress.checkedSteps.includes(id) ? ' set-dot--on' : ''}`}
+            />
+          ))}
+        </div>
       </header>
 
       <section aria-labelledby="warmup-heading">
@@ -338,8 +367,9 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
                     <li key={id} className={rowClass}>
                       <div className="set-row-top">
                         <span className="set-number">Set {setIdx + 1}</span>
-                        {isCurrent && <span className="set-current-badge">Up now</span>}
+                        {isCurrent && <span className="set-current-badge">· up now</span>}
                         {checked && !isCurrent && <span className="set-done-badge">Logged</span>}
+                        {isCurrent && <span className="set-count">of {slot.sets}</span>}
                       </div>
                       <div className="set-fields">
                         <label className="set-field">
@@ -381,7 +411,7 @@ export function SessionScreen({ programState, onProgramStateChange }: Props) {
                             onChange={() => void toggleMainSet(slot, setIdx)}
                           />
                           <span className="set-check-label" aria-hidden="true">
-                            Done
+                            {isCurrent ? 'Log set ✓' : checked ? '✓' : 'Done'}
                           </span>
                         </label>
                       </div>
