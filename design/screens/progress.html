@@ -1,0 +1,756 @@
+<!-- @dsCard group="Screens" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=390, initial-scale=1" />
+<title>Progress screen</title>
+<style>
+/*
+ * Design tokens — a small, reused system (CLAUDE.md: single-user, phone-first,
+ * garage/home-gym lighting). One committed look: dark, high-contrast, legible
+ * under poor lighting, with a single warm accent used consistently for the
+ * "act on this now" role (R20's active-set prominence, the primary CTA, the
+ * tab bar's active state) plus semantic success/danger/muted roles. No new
+ * hues beyond these four roles — reuse, don't add.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Surfaces — matches manifest theme_color/background_color (#1a1a1e) so
+     there's no flash-of-different-color between PWA splash and app paint. */
+  --bg: #1a1a1e;
+  --bg-raised: #222226;
+  --bg-inset: #2b2b30;
+  --border: #3a3a40;
+  --border-strong: #55555d;
+
+  /* Text */
+  --text: #f3f3f0;
+  --text-muted: #a8a8b2;
+  --text-faint: #757580;
+
+  /* Semantic roles — action / success / danger / muted. Reused everywhere;
+     do not introduce a fifth hue. */
+  --action: #ff9f1c;
+  --action-strong: #ffb64d;
+  --action-ink: #2a1600;
+  --success: #35d489;
+  --success-ink: #04170d;
+  --danger: #ff6b6b;
+  --danger-ink: #2a0808;
+  --focus-ring: #ffcf8a;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* Type scale */
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.4rem;
+
+  font: 16px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--action);
+  color: var(--action-ink);
+}
+
+/*
+ * Phone-first styles (R20). One committed dark look for garage/home-gym
+ * lighting; tokens live in src/index.css. The one deliberate move here: the
+ * *current* set on each exercise card is visually unmistakable — larger,
+ * warm-accented, full-width "Done" action — while every other set recedes
+ * to a compact, muted row. Everything else (buttons, chips, the tab bar)
+ * reuses the same four semantic roles: action / success / danger / muted.
+ */
+
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-4);
+  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.screen h1 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--space-1);
+}
+
+.screen h2 {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin: var(--space-5) 0 var(--space-3);
+}
+
+.screen header {
+  margin-bottom: var(--space-2);
+}
+
+.meso-label {
+  color: var(--action-strong);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  margin: 0 0 var(--space-2);
+}
+
+/* ---------- Warm-up / cool-down checklists ---------- */
+
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.checklist li {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.checklist label {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr;
+  column-gap: var(--space-2);
+  align-items: start;
+  cursor: pointer;
+}
+
+.checklist input[type='checkbox'] {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.1rem 0 0;
+  accent-color: var(--success);
+}
+
+.step-text {
+  min-width: 0;
+}
+
+.checklist .step-component {
+  font-weight: 600;
+}
+
+.checklist .step-dosage {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.step-what {
+  margin: 0.2rem 0 0;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+/* ---------- Exercise cards ---------- */
+
+.exercise-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.exercise-card h3 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.prescription {
+  display: inline-block;
+  margin: 0 0 var(--space-2);
+  padding: 0.2rem 0.6rem;
+  background: var(--bg-inset);
+  border-radius: 999px;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.form-cue {
+  margin: 0 0 var(--space-3);
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.intensifier-flag {
+  background: rgba(255, 159, 28, 0.15);
+  border: 1px solid rgba(255, 159, 28, 0.4);
+  color: var(--action-strong);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.6rem;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  margin: 0 0 var(--space-2);
+}
+
+.rest-cut-guidance {
+  font-size: var(--text-xs);
+  color: var(--text-faint);
+  margin: 0 0 var(--space-2);
+}
+
+.progression-hint {
+  position: relative;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin: 0 0 var(--space-3);
+  padding-left: var(--space-3);
+  border-left: 3px solid var(--action);
+}
+
+/* ---------- Set rows ---------- */
+
+.set-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.set-row {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  background: var(--bg);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.set-row-top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.set-number {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.set-current-badge,
+.set-done-badge {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+}
+
+.set-current-badge {
+  background: var(--action);
+  color: var(--action-ink);
+}
+
+.set-done-badge {
+  color: var(--success);
+}
+
+.set-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: var(--space-2);
+  align-items: end;
+}
+
+.set-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.set-field-label {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.set-field input[type='number'] {
+  width: 100%;
+  min-height: 2.5rem;
+  min-width: 0;
+  font-size: var(--text-base);
+  font-variant-numeric: tabular-nums;
+  padding: 0.3rem 0.5rem;
+  background: var(--bg-inset);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+}
+
+.set-field input[type='number']::placeholder {
+  color: var(--text-faint);
+}
+
+.set-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  min-height: 2.5rem;
+  min-width: 3.25rem;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-inset);
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.set-check input[type='checkbox'] {
+  width: 1.5rem;
+  height: 1.5rem;
+  accent-color: var(--success);
+  flex-shrink: 0;
+}
+
+.set-check-label {
+  display: none;
+}
+
+.set-check--done {
+  background: rgba(53, 212, 137, 0.15);
+  border-color: var(--success);
+  color: var(--success);
+}
+
+/* The current set: the single most prominent thing on the card (R20). */
+.set-row--current {
+  padding: var(--space-3);
+  background: rgba(255, 159, 28, 0.1);
+  border: 2px solid var(--action);
+  box-shadow: 0 4px 16px rgba(255, 159, 28, 0.15);
+}
+
+.set-row--current .set-number {
+  color: var(--action-strong);
+}
+
+.set-row--current .set-fields {
+  grid-template-columns: 1fr 1fr;
+}
+
+.set-row--current .set-field-label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.set-row--current .set-field input[type='number'] {
+  min-height: 3.25rem;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  border-color: var(--border-strong);
+}
+
+.set-row--current .set-check {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 3.25rem;
+  margin-top: var(--space-2);
+  font-size: var(--text-base);
+  border-color: var(--action);
+}
+
+.set-row--current .set-check-label {
+  display: inline;
+}
+
+.set-row--current .set-check--done {
+  background: var(--success);
+  border-color: var(--success);
+  color: var(--success-ink);
+}
+
+/* Sets that are neither current nor done yet (still queued) recede further. */
+.set-row:not(.set-row--current):not(.set-row--done) {
+  opacity: 0.7;
+}
+
+.set-row--done:not(.set-row--current) {
+  border-color: rgba(53, 212, 137, 0.35);
+}
+
+/* ---------- Primary actions ---------- */
+
+.complete-session {
+  display: block;
+  width: 100%;
+  min-height: 3.25rem;
+  margin: var(--space-5) 0 var(--space-4);
+  background: var(--action);
+  color: var(--action-ink);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.complete-session:active {
+  background: var(--action-strong);
+}
+
+/* ---------- Restart confirmation dialog (native <dialog>) ---------- */
+
+.restart-confirm {
+  border: 2px solid var(--danger);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  margin: 0;
+  max-width: 24rem;
+  width: calc(100vw - 2 * var(--space-4));
+  background: var(--bg-raised);
+  color: var(--text);
+}
+
+.restart-confirm::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.restart-confirm p {
+  margin: 0 0 var(--space-3);
+}
+
+.restart-confirm .restart-note {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.restart-confirm-actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.restart-confirm-actions button {
+  min-height: 2.75rem;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-base);
+  font-weight: 700;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-inset);
+  color: var(--text);
+}
+
+.restart-confirm-actions button.danger {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: var(--danger-ink);
+}
+
+/* ---------- Tab bar ---------- */
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  border-top: 1px solid var(--border);
+  background: var(--bg-raised);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.tab-bar button {
+  flex: 1;
+  min-height: 3.25rem;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.tab-bar button.active {
+  color: var(--action-strong);
+  font-weight: 700;
+  box-shadow: inset 0 2px 0 var(--action);
+}
+
+/* ---------- Overview screen ---------- */
+
+.variant-switcher {
+  display: flex;
+  gap: 0;
+  margin-bottom: var(--space-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.variant-switcher button {
+  flex: 1;
+  min-height: 2.75rem;
+  border: none;
+  background: var(--bg-raised);
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.variant-switcher button + button {
+  border-left: 1px solid var(--border-strong);
+}
+
+.variant-switcher button.active {
+  background: var(--action);
+  color: var(--action-ink);
+}
+
+.current-state {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.overview-screen form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: flex-end;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.overview-screen label {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  gap: 0.25rem;
+}
+
+.overview-screen select,
+.overview-screen button {
+  min-height: 2.75rem;
+  font-size: var(--text-base);
+  background: var(--bg-inset);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 0 var(--space-2);
+}
+
+.overview-screen form button[type='submit'] {
+  background: var(--action);
+  color: var(--action-ink);
+  border-color: var(--action);
+  font-weight: 700;
+  padding: 0 var(--space-4);
+}
+
+.day-actions {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.day-actions button {
+  flex: 1;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* ---------- Progress screen ---------- */
+
+.completion-bar {
+  width: 100%;
+  height: 0.6rem;
+  appearance: none;
+  border: none;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: var(--space-2) 0 var(--space-3);
+}
+
+.completion-bar::-webkit-progress-bar {
+  background: var(--bg-inset);
+}
+
+.completion-bar::-webkit-progress-value {
+  background: var(--action);
+  border-radius: 999px;
+}
+
+.completion-bar::-moz-progress-bar {
+  background: var(--action);
+  border-radius: 999px;
+}
+
+.exercise-trend {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.exercise-trend h3 {
+  margin: 0 0 var(--space-1);
+  font-size: var(--text-base);
+  font-weight: 700;
+}
+
+.trend-label {
+  font-size: var(--text-xs);
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: var(--space-2) 0 0.2rem;
+}
+
+.sparkline {
+  color: var(--action);
+  display: block;
+}
+
+.no-data {
+  color: var(--text-faint);
+  font-size: var(--text-sm);
+}
+
+.loading {
+  padding: var(--space-4);
+  color: var(--text-muted);
+}
+
+
+/* ---- preview frame (not part of the app) ---- */
+body { margin: 0; padding: 20px; background: #0e0e11;
+  display: flex; justify-content: center; align-items: flex-start; }
+.app-root { width: 390px; min-height: auto;
+  border-radius: 28px; overflow: hidden; box-shadow: 0 0 0 1px var(--border), 0 24px 60px rgba(0,0,0,0.5); }
+.app-root main { padding: var(--space-4); }
+.app-root .tab-bar { position: static; }
+.token-page { width: 390px; color: var(--text); }
+
+
+</style>
+</head>
+<body>
+
+<div class="app-root">
+  <main>
+    <div class="screen progress-screen">
+      <header>
+        <h1>Progress</h1>
+      </header>
+
+      <section aria-labelledby="overview-heading">
+        <h2 id="overview-heading">Program completion</h2>
+        <p>Week 5 of 12 (4 weeks completed)</p>
+        <progress class="completion-bar" value="4" max="12" aria-label="4 of 12 weeks completed"></progress>
+        <p>11 training days logged (all time) — a full 4-day cycle is 48 days</p>
+      </section>
+
+      <section aria-labelledby="exercises-heading">
+        <h2 id="exercises-heading">Per-exercise trends</h2>
+
+        <article class="exercise-trend">
+          <h3>Close-grip push-up</h3>
+          <p class="trend-label">Top weight per session</p>
+              <svg class="sparkline" viewBox="0 0 300 64" width="100%" height="64" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,44 L60,40 L120,34 L180,30 L240,22 L300,16 L300,64 L0,64 Z" fill="currentColor" opacity="0.14" />
+                <polyline points="0,44 60,40 120,34 180,30 240,22 300,16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+          <p class="trend-label">Volume per session (weight × reps)</p>
+              <svg class="sparkline" viewBox="0 0 300 64" width="100%" height="64" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,50 L60,46 L120,38 L180,40 L240,28 L300,18 L300,64 L0,64 Z" fill="currentColor" opacity="0.14" />
+                <polyline points="0,50 60,46 120,38 180,40 240,28 300,18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+        </article>
+
+        <article class="exercise-trend">
+          <h3>Floor EZ-bar skull crusher</h3>
+          <p class="trend-label">Top weight per session</p>
+              <svg class="sparkline" viewBox="0 0 300 64" width="100%" height="64" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,52 L60,48 L120,44 L180,36 L240,30 L300,24 L300,64 L0,64 Z" fill="currentColor" opacity="0.14" />
+                <polyline points="0,52 60,48 120,44 180,36 240,30 300,24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+          <p class="trend-label">Volume per session (weight × reps)</p>
+              <svg class="sparkline" viewBox="0 0 300 64" width="100%" height="64" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,56 L60,50 L120,46 L180,34 L240,32 L300,20 L300,64 L0,64 Z" fill="currentColor" opacity="0.14" />
+                <polyline points="0,56 60,50 120,46 180,34 240,32 300,20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+        </article>
+      </section>
+    </div>
+  </main>
+  <nav class="tab-bar" aria-label="Main navigation">
+    <button type="button">Session</button>
+    <button type="button" class="active">Progress</button>
+    <button type="button">Overview</button>
+  </nav>
+</div>
+</body>
+</html>
