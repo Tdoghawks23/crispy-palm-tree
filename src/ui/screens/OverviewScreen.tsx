@@ -1,6 +1,14 @@
-import { useRef, useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { TRAINING_DAYS, TOTAL_WEEKS, type Variant } from '../../data/program';
-import { repeatDay, setWeekDay, skipDay, switchVariant, type ProgramState } from '../../storage/db';
+import {
+  isStoragePersisted,
+  repeatDay,
+  requestPersistentStorage,
+  setWeekDay,
+  skipDay,
+  switchVariant,
+  type ProgramState,
+} from '../../storage/db';
 
 interface Props {
   programState: ProgramState;
@@ -16,6 +24,23 @@ export function OverviewScreen({ programState, onProgramStateChange }: Props) {
   // Skip/Repeat day is a no-op instead of a second real state transition.
   const actionInFlightRef = useRef(false);
   const [actionInFlight, setActionInFlight] = useState(false);
+
+  // Storage durability status: with no export/backup by design (PRD §10),
+  // a denied persist() grant is the one silent way to lose all history —
+  // so re-request on mount (idempotent) and show the result instead of
+  // hiding it. null = still checking.
+  const [storagePersisted, setStoragePersisted] = useState<boolean | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    void requestPersistentStorage()
+      .then(() => isStoragePersisted())
+      .then((persisted) => {
+        if (!cancelled) setStoragePersisted(persisted);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   async function handleVariantSwitch(next: Variant) {
     if (next === programState.variant) return;
@@ -138,6 +163,16 @@ export function OverviewScreen({ programState, onProgramStateChange }: Props) {
             {actionInFlight ? 'Working…' : 'Repeat day'}
           </button>
         </div>
+      </section>
+
+      <section aria-labelledby="storage-heading">
+        <h2 id="storage-heading">Data</h2>
+        <p className="current-state storage-status">
+          {storagePersisted === null && 'Storage: checking…'}
+          {storagePersisted === true && 'Storage: protected — the browser won’t auto-delete your logs.'}
+          {storagePersisted === false &&
+            'Storage: best-effort — the browser may clear logs if space runs low. Installing to your home screen protects them.'}
+        </p>
       </section>
     </div>
   );
