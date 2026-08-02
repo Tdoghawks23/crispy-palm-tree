@@ -47,6 +47,28 @@ export const MOVEMENT_PATTERNS: MovementPattern[] = [
   'wrist-flexion-extension',
 ];
 
+/**
+ * Display names for the movement-pattern keys, for UI that aggregates
+ * across rotating alternates (e.g. the Progress screen's pattern trends).
+ * Display-only — the `pattern` keys above remain the single taxonomy
+ * rotation and grouping logic key on (CLAUDE.md).
+ */
+export const PATTERN_LABELS: Record<MovementPattern, string> = {
+  'curl-ez': 'Supinated curl',
+  'curl-hammer': 'Hammer curl',
+  'curl-spider': 'Spider curl',
+  'curl-reverse': 'Reverse curl',
+  'triceps-skull-crusher': 'Skull crusher',
+  'triceps-overhead': 'Overhead extension',
+  'triceps-jm-press': 'JM press',
+  'close-grip-pushup': 'Close-grip push-up',
+  dip: 'Dip',
+  'row-horizontal': 'Horizontal row',
+  'row-unilateral': 'Unilateral row',
+  'grip-isometric': 'Grip hold',
+  'wrist-flexion-extension': 'Wrist curls',
+};
+
 /** Equipment pool this whole app is allowed to assume the user owns (R3). */
 export type Equipment =
   | 'ez-bar'

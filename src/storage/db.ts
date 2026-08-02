@@ -308,3 +308,33 @@ export async function clearSessionProgress(): Promise<void> {
   const db = await getDB();
   await db.delete('sessionProgress', SINGLETON_KEY);
 }
+
+// ---------------------------------------------------------------------
+// Storage durability
+// ---------------------------------------------------------------------
+
+/**
+ * Asks the browser to exempt this origin's storage from best-effort
+ * eviction. Everything the app accrues lives in the IndexedDB above with
+ * no export/backup/sync path by design (PRD §10), so eviction under
+ * storage pressure would be unrecoverable loss of the entire training
+ * history — persist() is the only durability lever available. Safe to
+ * call unconditionally: resolves false where the Storage API is missing
+ * (older WebKit) or the request is denied, and never throws.
+ */
+export async function requestPersistentStorage(): Promise<boolean> {
+  try {
+    return (await navigator.storage?.persist?.()) ?? false;
+  } catch {
+    return false;
+  }
+}
+
+/** Whether this origin's storage is currently durable — false when denied, unknown, or unsupported. */
+export async function isStoragePersisted(): Promise<boolean> {
+  try {
+    return (await navigator.storage?.persisted?.()) ?? false;
+  } catch {
+    return false;
+  }
+}

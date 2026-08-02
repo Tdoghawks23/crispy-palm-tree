@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { getAllSetLogs, type ProgramState, type SetLogEntry } from '../../storage/db';
-import { groupLogsByDay, localDateKey } from '../../storage/sessionHistory';
-import { EXERCISES } from '../../data/exercises';
+import { localDateKey } from '../../storage/sessionHistory';
+import { computePatternTrends, seriesDelta, type SeriesPoint } from '../../storage/trends';
+import { PATTERN_LABELS } from '../../data/exercises';
 import { TRAINING_DAYS, TOTAL_WEEKS } from '../../data/program';
 import { SparklineChart } from '../components/SparklineChart';
 
@@ -9,35 +10,31 @@ interface Props {
   programState: ProgramState;
 }
 
-function exerciseName(id: string): string {
-  return EXERCISES.find((e) => e.id === id)?.name ?? id;
+function DeltaPill({ points }: { points: SeriesPoint[] }) {
+  const delta = seriesDelta(points);
+  if (!delta) return null;
+  return (
+    <span className={`delta-pill${delta.direction === 'down' ? ' delta-pill--down' : ''}`}>
+      {delta.direction === 'up' ? '▲' : '▼'} {delta.pct}%
+    </span>
+  );
 }
 
-function groupByExercise(logs: SetLogEntry[]): Map<string, SetLogEntry[]> {
-  const byExercise = new Map<string, SetLogEntry[]>();
-  for (const log of logs) {
-    const bucket = byExercise.get(log.exerciseId);
-    if (bucket) bucket.push(log);
-    else byExercise.set(log.exerciseId, [log]);
-  }
-  return byExercise;
-}
-
-/** Improvement from first to last session as an "▲ N%" pill string, or null when there's no gain (or too little data) to show. */
-function pctDelta(vals: number[]): string | null {
-  if (vals.length < 2) return null;
-  const first = vals[0];
-  const last = vals[vals.length - 1];
-  if (first === 0) return null;
-  const d = Math.round(((last - first) / first) * 100);
-  return d >= 0 ? `▲ ${d}%` : null;
-}
-
-/** Most recent value as a display label (thousands-separated for volume), or an em dash when empty. */
-function lastLabel(vals: number[], thousands = false): string {
-  if (vals.length === 0) return '—';
-  const v = vals[vals.length - 1];
-  return thousands ? v.toLocaleString() : String(v);
+/** One metric row (label + latest value + delta pill) with its sparkline. */
+function TrendSeries({ label, points, chartLabel }: { label: string; points: SeriesPoint[]; chartLabel: string }) {
+  const values = points.map((p) => p.value);
+  return (
+    <>
+      <div className="trend-stat">
+        <div>
+          <div className="trend-label">{label}</div>
+          <div className="trend-value">{values[values.length - 1].toLocaleString()}</div>
+        </div>
+        <DeltaPill points={points} />
+      </div>
+      <SparklineChart values={values} label={chartLabel} />
+    </>
+  );
 }
 
 export function ProgressScreen({ programState }: Props) {
@@ -51,7 +48,10 @@ export function ProgressScreen({ programState }: Props) {
     return <p>Loading progress…</p>;
   }
 
-  const byExercise = groupByExercise(logs);
+  // Trends aggregate by movement pattern, not individual exercise —
+  // rotation swaps alternates per session, so per-exercise series only
+  // gain a point every 2-3 weeks (see storage/trends.ts).
+  const trends = computePatternTrends(logs);
   const totalTrainingDays = TRAINING_DAYS[programState.variant].length * TOTAL_WEEKS;
   const distinctLoggedDays = new Set(logs.map((l) => localDateKey(l.timestamp))).size;
   const weeksCompleted = Math.max(0, programState.week - 1);
@@ -86,39 +86,42 @@ export function ProgressScreen({ programState }: Props) {
         </p>
       </div>
 
-      <section aria-labelledby="exercises-heading">
-        <h2 id="exercises-heading">Per-exercise trends</h2>
-        {byExercise.size === 0 && (
+      <section aria-labelledby="patterns-heading">
+        <h2 id="patterns-heading">Movement trends</h2>
+        {trends.length === 0 && (
           <p className="no-data">No sets logged yet — complete a session to start tracking.</p>
         )}
-        {[...byExercise.entries()].map(([exerciseId, exerciseLogs]) => {
-          const groups = groupLogsByDay(exerciseLogs);
-          const topWeightPerDay = groups.map((g) => Math.max(...g.sets.map((s) => s.weight)));
-          const volumePerDay = groups.map((g) =>
-            g.sets.reduce((sum, s) => sum + s.weight * s.reps, 0),
-          );
-          const name = exerciseName(exerciseId);
-          const topDelta = pctDelta(topWeightPerDay);
-          const volDelta = pctDelta(volumePerDay);
+        {trends.map((trend) => {
+          const label = PATTERN_LABELS[trend.pattern];
           return (
-            <article className="exercise-trend" key={exerciseId}>
-              <h3>{name}</h3>
-              <div className="trend-stat">
-                <div>
-                  <div className="trend-label">Top load / session</div>
-                  <div className="trend-value">{lastLabel(topWeightPerDay)}</div>
-                </div>
-                {topDelta && <span className="delta-pill">{topDelta}</span>}
-              </div>
-              <SparklineChart values={topWeightPerDay} label={`${name} weight trend`} />
-              <div className="trend-stat">
-                <div>
-                  <div className="trend-label">Volume / session</div>
-                  <div className="trend-value">{lastLabel(volumePerDay, true)}</div>
-                </div>
-                {volDelta && <span className="delta-pill">{volDelta}</span>}
-              </div>
-              <SparklineChart values={volumePerDay} label={`${name} volume trend`} />
+            <article className="exercise-trend" key={trend.pattern}>
+              <h3>{label}</h3>
+              {trend.loadVolume.length > 0 && (
+                <TrendSeries
+                  label="Load volume / session"
+                  points={trend.loadVolume}
+                  chartLabel={`${label} load volume trend`}
+                />
+              )}
+              {trend.bwReps.length > 0 && (
+                <TrendSeries
+                  label="Bodyweight reps / session"
+                  points={trend.bwReps}
+                  chartLabel={`${label} bodyweight reps trend`}
+                />
+              )}
+              <ul className="pattern-exercises">
+                {trend.exercises.map((ex) => (
+                  <li key={ex.exerciseId}>
+                    <span className="pattern-exercise-name">{ex.name}</span>
+                    <span className="pattern-exercise-meta">
+                      {ex.sessions}×{' · last: '}
+                      {ex.lastTopWeight !== null && `${ex.lastTopWeight} lb top, `}
+                      {ex.lastTotalReps} reps
+                    </span>
+                  </li>
+                ))}
+              </ul>
             </article>
           );
         })}
