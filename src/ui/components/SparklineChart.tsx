@@ -16,6 +16,8 @@ interface Props {
   width?: number;
   height?: number;
   label: string;
+  /** Shown instead of the chart when there's only one data point — a lone dot reads as a rendering glitch. */
+  singlePointText?: string;
 }
 
 // Fixed 300x60 viewBox (drawn with preserveAspectRatio="none" so it stretches
@@ -24,13 +26,21 @@ const VB_W = 300;
 const VB_H = 60;
 const PAD = 6;
 
-export function SparklineChart({ values, height = 52, label }: Props) {
+export function SparklineChart({
+  values,
+  height = 52,
+  label,
+  singlePointText = 'Logged once — a trend line appears after the next session.',
+}: Props) {
   // Unique per instance — multiple sparklines share a document, and an area
   // fill referencing the wrong gradient id would pick up another chart's.
   const gradId = useId();
 
   if (values.length === 0) {
     return <p className="no-data">No logged data yet.</p>;
+  }
+  if (values.length === 1) {
+    return <p className="no-data">{singlePointText}</p>;
   }
 
   const max = Math.max(...values);
